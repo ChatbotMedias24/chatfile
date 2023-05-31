@@ -18,7 +18,7 @@ translator = Translator(to_lang="fr")
 # Créer une colonne pour l'image
 # Définir le style CSS pour déplacer l'image vers la gauche
 
-st.subheader("Rapport administration des douanes et impot indirects")
+st.subheader("Rapport d'activité 2022 de l'Administration des Douanes et Impôts Indirects")
 
 if 'responses' not in st.session_state:
     st.session_state['responses'] = ["Quelle information souhaitez-vous obtenir du rapport annuel sur la situation des droits de l'homme au Maroc 2022 ?"]
