@@ -103,4 +103,4 @@ with response_container:
             message(st.session_state['responses'][i],key=str(i))
             if i < len(st.session_state['requests']):
                 message(st.session_state["requests"][i], is_user=True,key=str(i)+ '_user')
-st.markdown('<style>' + open('custom.css').read() + '</style>', unsafe_allow_html=True)
+
