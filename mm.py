@@ -56,7 +56,7 @@ with textcontainer:
 
 # Déplacer l'image vers la droite
     with right_co:
-      st.sidebar.image(logoo_path, width=150,use_column_width="always")
+      st.sidebar.image(logoo_path, width=200)
  
 
     st.sidebar.subheader("Suggestions:")
