@@ -65,7 +65,7 @@ with textcontainer:
     "Le résumé du rapport",
     "Quelles sont les mesures tarifaires importantes prises dans le cadre de la Loi de Finances 2022 en matière de fiscalité douanière ?",
     "Quelles sont les mesures prises pour faciliter les opérations sous régimes suspensifs ?",
-    "Comment la dématérialisation du bon à délivrer a-t-elle amélioré les procédures douanières ?",
+    " Comment l'ADII encourage-t-elle les initiatives nationales en matière d'efficacité énergétique et de protection de l'environnement et du consommateur ?",
     "Quels sont les résultats de la lutte contre le trafic illicite d'espèces animales protégées menacées d'extinction ?"
 ]
 
