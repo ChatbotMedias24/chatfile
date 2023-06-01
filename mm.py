@@ -66,7 +66,7 @@ with textcontainer:
     "Quelles sont les mesures tarifaires importantes prises dans le cadre de la Loi de Finances 2022 en matière de fiscalité douanière ?",
     "Quelles sont les mesures prises pour faciliter les opérations sous régimes suspensifs ?",
     " Comment l'ADII encourage-t-elle les initiatives nationales en matière d'efficacité énergétique et de protection de l'environnement et du consommateur ?",
-    "Quels sont les résultats de la lutte contre le trafic illicite d'espèces animales protégées menacées d'extinction ?"
+    " Combien de nouveaux actes administratifs ont été transcrits sur le portail national www.idarati.ma en 2022 ?"
 ]
 
     selected_questions = []
