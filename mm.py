@@ -67,7 +67,9 @@ with textcontainer:
         "Quelles sont les conditions d'octroi des franchises et tolérances pour les effets personnels ?",
         "Comment obtenir l'admission temporaire pour mon véhicule lors de mon séjour au Maroc ?",
         "Quelles sont les formalités à remplir pour importer des pièces de rechange pour mon véhicule ?",
-        "Quels sont les services douaniers disponibles pour les voyageurs au Maroc ?"
+        "Quels sont les services douaniers disponibles pour les voyageurs au Maroc ?",
+        "Quelles sont les importations strictement interdites au maroc ?",
+        "Quelles sont les importations soumises à des formalités particulières ?"
     ]
 
     selected_questions = []
@@ -97,7 +99,14 @@ with textcontainer:
                 response = "Pour importer des pièces de rechange pour votre véhicule au Maroc, vous devez remplir les formalités suivantes :1. Les pièces de rechange importées doivent être enregistrées sur le système informatique de l'Administration des Douanes et Impôts Indirects au nom de l'importateur du véhicule.2. Les pièces remplacées doivent être réexportées à la fin du séjour du véhicule au Maroc, ou éventuellement, être dédouanées en payant les droits et taxes exigibles.Veuillez noter que ces informations sont basées sur le contexte fourni, mais il est toujours recommandé de vérifier les exigences spécifiques auprès des services douaniers marocains pour obtenir les informations les plus à jour."
                 st.session_state.requests.append(selected_question)
                 st.session_state.responses.append(response)
-            
+            elif selected_question == "Quelles sont les importations strictement interdites au maroc ?":
+                response = "les importations strictement interdites au Maroc sont les suivantes : armes et munitions de guerre, stupéfiants, tous les écrits, imprimés, cassettes et vidéocassettes enregistrées et objets contraires aux bonnes mœurs et à l’ordre public, ainsi que les marchandises contrefaites (importation et exportation)."
+                st.session_state.requests.append(selected_question)
+                st.session_state.responses.append(response)
+            elif selected_question == "Quelles sont les importations soumises à des formalités particulières ?":
+                response = "les importations soumises à des formalités particulières au Maroc sont les suivantes :1. Animaux et produits animaux : certificat vétérinaire délivré par les services compétents relevant de l’Office National de la Sécurité Sanitaire des Produits Alimentaires (ONSSA).2. Effets personnels et mobilier composant votre déménagement : Original du certificat de changement de résidence délivré par l’autorité municipale du lieu de départ, ou par le consulat marocain du ressort avec mention de votre qualité (salarié, commerçant, étudiant, etc.), inventaire détaillé, daté et signé par vos soins.3. Matériels et outillages usagés : Liste détaillée des matériels et outillages usagés, datée et signée par vos soins (uniquement pour les Marocains Résidant à l’Étranger ayant exercé une activité lucrative permanente et rentrant définitivement au pays)."
+                st.session_state.requests.append(selected_question)
+                st.session_state.responses.append(response)
             else:
                 question = selected_question
                 with st.spinner("En train de taper..."):
