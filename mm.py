@@ -63,11 +63,11 @@ with textcontainer:
     st.sidebar.subheader("Suggestions:")
     st.sidebar.markdown("##### Choisir:")
     questions = [
-        "Le résumé du rapport",
-        "Quelles sont les conditions d'octroi des franchises et tolérances ?",
-        "Comment obtenir l'admission temporaire pour mon véhicule lors de mon séjour au Maroc ?",
-        "Quelles sont les formalités à remplir pour importer des pièces de rechange pour mon véhicule ?",
-        "Quels sont les services douaniers disponibles pour les voyageurs au Maroc ?"
+        " Le résumé du rapport",
+        " Quelles sont les conditions d'octroi des franchises et tolérances ?",
+        " Quels sont les documents nécessaires pour l'admission temporaire d'un véhicule au Maroc ?",
+        " Quelles sont les formalités à remplir pour importer des pièces de rechange pour mon véhicule ?",
+        " Quels sont les services douaniers disponibles pour les voyageurs au Maroc ?"
     ]
 
     selected_questions = []
