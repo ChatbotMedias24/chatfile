@@ -51,10 +51,10 @@ with textcontainer:
     logo_path = "medias24.png"
     logoo_path="rapprt.png"
     st.sidebar.image(logo_path,width=200)
-    left_co, _, right_co = st.sidebar.columns([0.4, 1, 1])
+    #left_co, _, right_co = st.sidebar.columns([0.4, 1, 1])
 
     # Ajouter un espace vide à gauche pour déplacer l'image vers la droite
-    spacer = left_co.empty()
+    #spacer = left_co.empty()
 
     # Afficher l'image
     #with right_co:
